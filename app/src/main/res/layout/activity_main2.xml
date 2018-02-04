@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fina.finasriputri_12_2150284_modul1.MainActivity2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Makan Malam"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/idTempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="18dp"
+            android:text="Menu" />
+
+        <TextView
+            android:id="@+id/idMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="24dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/jumlahPorsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Jumlah Porsi"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/idJumlahPorsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/totalHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:text="Total Harga" />
+
+        <TextView
+            android:id="@+id/idTotalharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textSize="24dp"/>
+
+
+
+</LinearLayout>

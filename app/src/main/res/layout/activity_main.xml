@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:id="@+id/textView"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dengan Milea"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/Id_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Menu" />
+
+    <EditText
+        android:id="@+id/Id_jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="jumlah porsi"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/eatbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EATBUS"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="30dp"
+            android:onClick="eatbus"/>
+        <Button
+            android:id="@+id/abnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABNORMAL"
+            android:background="@color/colorAccent"
+            android:layout_marginRight="30dp"
+            android:onClick="abnormal"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
